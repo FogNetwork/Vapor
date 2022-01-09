@@ -8,7 +8,7 @@ var items = document.createElement("center")
 var tab = document.createElement("button")
 tab.className = "vaportab"
 tab.innerText = "Tab Cloak"
-tab.setAttribute("onclick", 'new Nightmare({"title": "Tab Cloak","type": "js","js": "https://cdn.jsdelivr.net/gh/FogNetwork/Vapor/app.tab.js","width": 400,"height": 300,"theme": "dark"})')
+tab.setAttribute("onclick", 'new Nightmare({"title": "Tab Cloak","type": "js","js": "https://cdn.jsdelivr.net/gh/FogNetwork/Vapor/tab.min.js","width": 400,"height": 300,"theme": "dark"})')
 items.appendChild(tab)
 
 var inspect = document.createElement("button")
