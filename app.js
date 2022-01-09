@@ -1,6 +1,6 @@
 var title = document.createElement("div")
 title.className = "avotitle"
-title.innerText = "Avo"
+title.innerText = "Vapor"
 appid.appendChild(title)
 
 var items = document.createElement("center")
@@ -12,7 +12,9 @@ items.appendChild(tab)
 
 var inspect = document.createElement("button")
 inspect.className = "avotab"
-inspect.innerText = "Inspect"
+inspect.innerText = "Avo"
+inspect.setAttribute("onclick", "javascript:(function () {var a = document.createElement('script');a.src = 'https://cdn.jsdelivr.net/gh/FogNetwork/Avo/avo.min.js';document.body.appendChild(a);}())
+")
 items.appendChild(inspect)
 
 appid.appendChild(items)
