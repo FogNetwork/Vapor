@@ -19,6 +19,6 @@ items.appendChild(inspect)
 
 appid.appendChild(items)
 
-var avostyle = document.createElement("style")
-avostyle.innerText = ".vaportitle {font-size: 60px; text-align: center; color: white; user-select: none; margin-top: 10px;}.vaportab{cursor: pointer;background: #303134;border-radius: 2.5px;height: 50px;text-align: center;line-height: 50px;color: white; border: none; font-size: 18px;user-select: none; margin: 5px;} .vaportab:hover {background: darkslategrey;}"
-document.getElementsByTagName("html")[0].appendChild(avostyle)
+var vaporstyle = document.createElement("style")
+vaporstyle.innerText = ".vaportitle {font-size: 60px; text-align: center; color: white; user-select: none; margin-top: 10px;}.vaportab{cursor: pointer;background: #303134;border-radius: 2.5px;height: 50px;text-align: center;line-height: 50px;color: white; border: none; font-size: 18px;user-select: none; margin: 5px;} .vaportab:hover {background: darkslategrey;}"
+document.getElementsByTagName("html")[0].appendChild(vaporstyle)
